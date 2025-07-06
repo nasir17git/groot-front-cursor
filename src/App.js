@@ -4,18 +4,38 @@ import MissionList from './pages/MissionList';
 import MyPage from './pages/MyPage';
 import Onboarding from './pages/Onboarding';
 import Login from './pages/Login';
+import CourseList from './pages/CourseList';
+import CourseDetail from './pages/CourseDetail';
+import CarbonCalculator from './pages/CarbonCalculator';
+import BadgeCollection from './pages/BadgeCollection';
+import BadgeDetail from './pages/BadgeDetail';
+import OtherMissions from './pages/OtherMissions';
+import MyMissions from './pages/MyMissions';
+import MissionDetail from './pages/MissionDetail';
 import './App.css';
-
-const pages = {
-  home: <Home />, // 홈화면
-  mission: <MissionList />, // 미션 리스트
-  mypage: <MyPage />, // 마이페이지
-  onboarding: <Onboarding />, // 온보딩
-  login: <Login />, // 로그인
-};
 
 function App() {
   const [page, setPage] = useState('home');
+
+  const handlePageChange = (newPage) => {
+    setPage(newPage);
+  };
+
+  const pages = {
+    home: <Home onPageChange={handlePageChange} />, // 홈화면
+    mission: <MissionList onPageChange={handlePageChange} />, // 미션 리스트
+    mypage: <MyPage onPageChange={handlePageChange} />, // 마이페이지
+    onboarding: <Onboarding onPageChange={handlePageChange} />, // 온보딩
+    login: <Login onPageChange={handlePageChange} />, // 로그인
+    courseList: <CourseList onPageChange={handlePageChange} />, // 생태관광 코스 목록
+    courseDetail: <CourseDetail onPageChange={handlePageChange} />, // 생태관광 코스 상세
+    carbonCalculator: <CarbonCalculator onPageChange={handlePageChange} />, // 탄소배출량 계산
+    badgeCollection: <BadgeCollection onPageChange={handlePageChange} />, // 뱃지 수집 현황
+    badgeDetail: <BadgeDetail onPageChange={handlePageChange} />, // 뱃지 상세 정보
+    otherMissions: <OtherMissions onPageChange={handlePageChange} />, // 다른 유저 미션 결과
+    myMissions: <MyMissions onPageChange={handlePageChange} />, // 나의 미션 수행 결과
+    missionDetail: <MissionDetail onPageChange={handlePageChange} />, // 미션 상세 조회
+  };
 
   return (
     <div className="app">

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MyPage() {
+function MyPage({ onPageChange }) {
   return (
     <div className="fade-in">
       <h2 className="section-title">👤 마이페이지</h2>
@@ -89,11 +89,11 @@ function MyPage() {
           <div style={{fontSize: '1.2rem', marginBottom: '0.5rem'}}>
             현재 레벨: Lv.3 🍇 영동포도 송이
           </div>
-          <button className="btn" style={{background: 'rgba(255,255,255,0.2)', border: '1px solid white'}}>
+          <button className="btn" style={{background: 'rgba(255,255,255,0.2)', border: '1px solid white'}} onClick={() => onPageChange('badgeCollection')}>
             🏅 뱃지 수집 현황 보기
           </button>
         </div>
-        <button className="btn btn-secondary">📋 뱃지 레벨 자세히 보기</button>
+        <button className="btn btn-secondary" onClick={() => onPageChange('badgeDetail')}>📋 뱃지 레벨 자세히 보기</button>
       </div>
 
       {/* 탄소절감 순위 */}

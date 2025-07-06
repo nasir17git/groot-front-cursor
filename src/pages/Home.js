@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function Home({ onPageChange }) {
   return (
     <div className="fade-in">
       {/* Hero Section */}
@@ -45,22 +45,22 @@ function Home() {
       <section className="card">
         <h2 className="section-title">🌍 주요 서비스</h2>
         <div className="grid">
-          <div className="card" style={{textAlign: 'center', cursor: 'pointer'}}>
+          <div className="card" style={{textAlign: 'center', cursor: 'pointer'}} onClick={() => onPageChange('courseList')}>
             <div style={{fontSize: '3rem', marginBottom: '1rem'}}>🗺️</div>
             <h3>그루맵 트래킹</h3>
             <p>생태관광 코스</p>
           </div>
-          <div className="card" style={{textAlign: 'center', cursor: 'pointer'}}>
+          <div className="card" style={{textAlign: 'center', cursor: 'pointer'}} onClick={() => onPageChange('mission')}>
             <div style={{fontSize: '3rem', marginBottom: '1rem'}}>👣</div>
             <h3>그루의 발자국</h3>
             <p>미션 수행</p>
           </div>
-          <div className="card" style={{textAlign: 'center', cursor: 'pointer'}}>
+          <div className="card" style={{textAlign: 'center', cursor: 'pointer'}} onClick={() => onPageChange('carbonCalculator')}>
             <div style={{fontSize: '3rem', marginBottom: '1rem'}}>📊</div>
             <h3>그루미터</h3>
             <p>탄소배출량 계산</p>
           </div>
-          <div className="card" style={{textAlign: 'center', cursor: 'pointer'}}>
+          <div className="card" style={{textAlign: 'center', cursor: 'pointer'}} onClick={() => onPageChange('otherMissions')}>
             <div style={{fontSize: '3rem', marginBottom: '1rem'}}>🌲</div>
             <h3>챌린지 포레스트</h3>
             <p>유저 미션 결과</p>
