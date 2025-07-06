@@ -9,7 +9,7 @@ function MissionList() {
         {/* 다회용기 사용 미션 */}
         <div className="card" style={{cursor: 'pointer'}}>
           <div style={{
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
             height: '200px',
             borderRadius: '15px',
             marginBottom: '1rem',
@@ -32,7 +32,7 @@ function MissionList() {
         {/* 자전거 이용 미션 */}
         <div className="card" style={{cursor: 'pointer'}}>
           <div style={{
-            background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+            background: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)',
             height: '200px',
             borderRadius: '15px',
             marginBottom: '1rem',
@@ -78,7 +78,7 @@ function MissionList() {
         {/* 대중교통 이용 미션 */}
         <div className="card" style={{cursor: 'pointer'}}>
           <div style={{
-            background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+            background: 'linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%)',
             height: '200px',
             borderRadius: '15px',
             marginBottom: '1rem',
@@ -101,7 +101,7 @@ function MissionList() {
 
       {/* 미션 인증 완료 섹션 */}
       <div className="card" style={{
-        background: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+        background: 'linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%)',
         color: 'white',
         textAlign: 'center'
       }}>

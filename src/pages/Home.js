@@ -7,7 +7,7 @@ function Home() {
       <section className="card">
         <h2 className="section-title">🚩 공지사항 & 광고</h2>
         <div style={{
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
           padding: '2rem',
           borderRadius: '15px',
           color: 'white',
@@ -29,7 +29,7 @@ function Home() {
       {/* Login/Status Section */}
       <section className="card">
         <div style={{
-          background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+          background: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)',
           padding: '1.5rem',
           borderRadius: '15px',
           color: 'white',

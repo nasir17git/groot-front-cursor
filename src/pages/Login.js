@@ -7,7 +7,7 @@ function Login() {
       
       <div className="card" style={{maxWidth: '500px', margin: '0 auto'}}>
         <div style={{
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
           padding: '2rem',
           borderRadius: '15px',
           color: 'white',
@@ -62,7 +62,7 @@ function Login() {
         <div style={{
           marginTop: '2rem',
           padding: '1rem',
-          background: 'rgba(102, 126, 234, 0.1)',
+          background: 'rgba(67, 233, 123, 0.1)',
           borderRadius: '10px',
           textAlign: 'center',
           color: '#7f8c8d'

@@ -17,7 +17,7 @@ function MyPage() {
             width: '80px',
             height: '80px',
             borderRadius: '50%',
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -39,7 +39,7 @@ function MyPage() {
 
       {/* 누적 탄소절감량 */}
       <div className="card" style={{
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
         color: 'white'
       }}>
         <h3 style={{fontSize: '1.5rem', marginBottom: '1rem'}}>🌱 총 탄소배출 절감량</h3>
@@ -58,7 +58,7 @@ function MyPage() {
       <div className="card">
         <h3 style={{color: '#2c3e50', marginBottom: '1rem'}}>📊 활동별 절감 그래프</h3>
         <div style={{
-          background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+          background: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)',
           height: '200px',
           borderRadius: '15px',
           display: 'flex',
@@ -79,7 +79,7 @@ function MyPage() {
       <div className="card">
         <h3 style={{color: '#2c3e50', marginBottom: '1rem'}}>🏆 뱃지 수집 현황</h3>
         <div style={{
-          background: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+          background: 'linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%)',
           padding: '1.5rem',
           borderRadius: '15px',
           color: 'white',
@@ -100,7 +100,7 @@ function MyPage() {
       <div className="card">
         <h3 style={{color: '#2c3e50', marginBottom: '1rem'}}>🏆 탄소절감 순위</h3>
         <div style={{
-          background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+          background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
           padding: '1.5rem',
           borderRadius: '15px',
           color: 'white',
